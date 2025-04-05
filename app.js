@@ -36,7 +36,7 @@ setInterval(() => {
     // Sunday before 6:00 pm
     // Show Weekend Rate
     weekendRateElement.style.display = "block";
-    weekdayRateElement.style.display = "none";
+    weekdayRateElement.style.display = "block";
   } else {
     // Show Weekday Rate
     weekdayRateElement.style.display = "block";
@@ -56,7 +56,7 @@ setInterval(() => {
     regularTen.style.display = "none";
     onp.style.display = "table-row";
   } else {
-    onp.style.display = "none";
+    onp.style.display = "table-row";
     regularTen.style.display = "table-row";
   }
 }, 1000); // Update every second
