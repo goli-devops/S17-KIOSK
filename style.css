@@ -162,20 +162,30 @@ td {
 /* Responsive Design for All Desktop Screens */
 @media (min-width: 1920px) {
   table {
-    font-size: 27px;
+    font-size: 29px;
   }
 
   td {
-    padding: 50px 60px;
+    padding: 45px 60px;
   }
   th {
-    padding: 20px 70px;
+    padding: 5px 70px;
   }
   .drivein table {
     margin-top: 10px;
   }
   .drivein {
     bottom: 110px;
+  }
+  .date-el {
+    font-size: 32px;
+  }
+  .logo {
+    width: 320px;
+  }
+  .walkin-banner {
+    font-size: 40px;
+    width: 570px;
   }
 }
 
@@ -184,10 +194,10 @@ td {
     font-size: 25px;
   }
   td {
-    padding: 30px 40px;
+    padding: 35px 40px;
   }
   th {
-    padding: 20px 40px;
+    padding: 5px 40px;
   }
   .drivein table {
     margin-top: 10px;
@@ -205,6 +215,23 @@ td {
   }
   th {
     padding: 20px 30px;
+  }
+  .drivein table {
+    margin-top: 10px;
+  }
+  .drivein {
+    bottom: 95px;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1390px) {
+  table {
+    font-size: 20px;
+  }
+  td {
+    padding: 30px 30px;
+  }
+  th {
+    padding: 5px 30px;
   }
   .drivein table {
     margin-top: 10px;
